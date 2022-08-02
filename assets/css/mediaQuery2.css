@@ -1,0 +1,6 @@
+@media only screen and (max-width:900px) and (min-width:600px){
+    .exemplo{
+        background: yellow;
+        height: 400px;
+    }
+}

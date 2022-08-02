@@ -1,0 +1,60 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: blue;
+    padding: 10px;
+}
+
+.imagem{
+    width: 200px;
+    padding: 5px;
+}
+
+.imagem:hover{
+    opacity: 0.9;
+}
+
+.imagem1{
+    width: 200px;
+    padding: 5px;
+}
+
+.imagem1:hover{
+    opacity: 0.5;
+}
+
+.imagem2{
+    width: 200px;
+    padding: 5px;  
+}
+
+.imagem2:hover{
+    opacity: 0.2;
+}
+
+.botao{
+    padding: 15px;
+    background-color: green;
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+    border-radius: 5px;
+}
+a.botao:hover{
+    opacity: 0.9;
+}
+/* O texto aqui o que estiver dentro 
+ficara tb com transparencia no caso
+o paragrafo que esta dentro dessa div
+com a classe transparente */
+.transparente{
+    background-color: blue;
+    color: white;
+    text-align: center;
+    padding: 40px;
+    opacity: 0.5;
+}
