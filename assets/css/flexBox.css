@@ -1,0 +1,39 @@
+/* Justify-content - trabalha na horizontal
+e o algign itens - trabalha na vertical */
+
+*{
+    box-sizing: border-box;
+}
+
+
+.flex-pai{
+    background-color: blue;
+    height: 600px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+
+}
+
+.flex-pai div{
+    flex-grow: 1;
+    background-color: white;
+    border: 1px solid black;
+    /* margin: 5px; */
+    padding: 30px;
+    text-align: center;
+}
+
+
+
+
+
+
+
+/* @media screen and (max-width:600px){
+    .flex-pai{
+        flex-direction: column;
+    }
+} */
